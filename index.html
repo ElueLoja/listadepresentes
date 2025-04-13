@@ -12,22 +12,19 @@
       background-color: #ecc77f;
       color: #2e2508;
     }
-    header {
-      width: 100%;
-      height: auto;
+    .content-wrapper {
+      background-color: white;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 40px;
     }
     header img {
       width: 100%;
       height: auto;
       display: block;
     }
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
     .item {
-      margin-bottom: 40px;
+      margin: 60px 0;
       text-align: center;
     }
     .item img {
@@ -56,11 +53,11 @@
   </style>
 </head>
 <body>
-  <header>
-    <img src="banner.jpg" alt="Banner da página">
-  </header>
+  <div class="content-wrapper">
+    <header>
+      <img src="banner.jpg" alt="Banner da página">
+    </header>
 
-  <div class="container">
     <div class="item">
       <img src="presente1.jpg" alt="Nome do Presente 1">
       <h2>Nome do Presente 1</h2>
@@ -72,9 +69,6 @@
       <h2>Nome do Presente 2</h2>
       <a href="https://linkdopresente2.com">Presentear</a>
     </div>
-
-    <!-- Adicione mais itens abaixo seguindo o mesmo padrão -->
-
   </div>
 </body>
 </html>
